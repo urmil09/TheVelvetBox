@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontend/welcome');
+});
+
+Route::get('master', function () {
+    return view('frontend/master');
 });
