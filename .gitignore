@@ -53,3 +53,10 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+/storage/logs/laravel.log
