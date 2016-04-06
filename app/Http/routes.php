@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('master', function () {
-    return view('frontend/master');
+    return view('frontend/index');
 });
