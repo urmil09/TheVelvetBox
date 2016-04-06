@@ -16,5 +16,9 @@ Route::get('/', function () {
 });
 
 Route::get('master', function () {
-    return view('frontend/master');
+<<<<<<< HEAD
+    return view('frontend/index');
+=======
+    return view('frontend/index');
+>>>>>>> refs/remotes/origin/sakshi
 });
