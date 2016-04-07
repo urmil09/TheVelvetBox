@@ -1,31 +1,33 @@
 <header>
-		<div class="container-fluid">
-			<div class="row">
-				<h></h>
-			</div>
-			<div class="row">
-				<h></h>
-			</div>
-			
-			<div class="row">
-				<nav class="navbar navbar-inverse navbar-fixed-top">
-					<div class="container-fluid">
-						<div class=" navbar-header">
-							<a class="navbar-brand" href="#">HOME</a>
-							<a class="navbar-brand" href="#">JEWLERY</a>
-							<a class="navbar-brand" href="#">RINGS</a>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		 <div class="container-fluid">
+			    <div class="navbar-header">
+			    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				     </button>
+			     		 <a class="navbar-brand" href="#">THEVELVETBOX</a>
+			    </div>
 
-						</div>
-						
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
-							
-						</ul>
-					</div>
-				</nav>			
-			</div>
-		@section('home-page-carousel')
-		@show
-
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse1">
+			    	<ul class="nav navbar-nav">
+				      <li class="active"><a href="#">Home</a></li>
+				      <li><a href="#">JEWEWLERY</a></li>
+				      <li><a href="#">BAGS</a></li> 
+				      <li><a href="#">SLINGS</a></li> 
+					 </ul>
+			    <ul class="nav navbar-nav navbar-right">
+			      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+			      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			    </ul>
+			    </div>
+				
 		</div>
+		</nav>				
+@section('home-page-carousel')
+			@show
+	
+		
 </header>

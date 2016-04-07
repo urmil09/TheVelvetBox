@@ -20,6 +20,12 @@
 
 @section('main')
 @show
+
+
+@section('div')
+@show
+
+
 	
 </body>
 </html>

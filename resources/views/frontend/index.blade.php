@@ -6,7 +6,7 @@
 
 <div class="container">
 		<div class="col-lg-12 ">
-			<div id="myCarousel" class="carousel slide center-block" data-ride="carousel">
+			<div id="myCarousel" class="fill" data-ride="carousel" style="width: 900px;height :300px">
 		<!-- Indicators -->
 					  <ol class="carousel-indicators">
 						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -20,7 +20,7 @@
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner" role="listbox">
 						<div class="item active">
-						 <img src={{asset('tvb/1.jpg')}} alt="Chania">
+						 <img src={{asset('tvb/main.jpg')}} alt="Chania">
 						</div>
 
 						
