@@ -11,14 +11,18 @@
 |
 */
 
+Route::get('welcome',function(){
+	return view('frontend/welcome');
+});
+
 Route::get('/', function () {
     return view('frontend/welcome');
 });
 
 Route::get('master', function () {
-<<<<<<< HEAD
     return view('frontend/index');
-=======
-    return view('frontend/index');
->>>>>>> refs/remotes/origin/sakshi
+});
+
+Route::get('master1', function () {
+    return view('frontend/master1');
 });
