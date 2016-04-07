@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('master', function () {
     return view('frontend/index');
 });
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
